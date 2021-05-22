@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+body {
+  padding: 0px;
+  margin: 0 0 40px 0;
+  background: linear-gradient(
+    90deg,
+    rgba(200, 198, 231, 1) 0%,
+    rgba(183, 183, 236, 1) 47%,
+    rgba(190, 227, 235, 1) 99%
+  );
+}
+
+nav,
+nav h1 {
+  text-align: center;
+  margin: 0px;
+  font-size: 2em;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 1px;
+  font-weight: bold;
+  text-shadow: pink 2px 1px 1px;
+}
+
+.pic {
+  margin: 0 auto;
+  width: 75%;
+  height: 70vh;
+  background-color: black;
+  background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Falanmajchrowicz.com%2Fwp-content%2Fuploads%2F2019%2F01%2Fglacier_peak_image_lake_58240.jpg&f=1&nofb=1');
+  background-size: cover;
+  border-radius: 20px;
+
+  background-repeat: no-repeat;
+  transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1%;
+  position: relative;
+  bottom: 250px;
+}
+
+button {
+  cursor: pointer;
+  border-radius: 30px;
+  border: 0px solid;
+  width: 60px;
+  height: 60px;
+  font-size: 2.5em;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+}
+
+.scroll-img {
+  width: 90%;
+  height: max-content;
+  display: flex;
+  overflow-x: hidden;
+  margin: 0 auto;
+  transition: all 1s linear;
+  border-radius: 10px;
+}
+
+img {
+  background-color: white;
+  height: 150px;
+  width: 200px;
+  margin: 0 2px;
+  border-radius: 10px;
+
+  cursor: pointer;
+}
+
+.scroll-img:hover {
+  overflow-x: scroll;
+  transition: all 1s linear;
+}
+
+.shadow {
+  background-color: rgb(206, 206, 206);
+}
+
+.click {
+  background-color: rgb(146, 143, 143);
+  color: white;
+}
